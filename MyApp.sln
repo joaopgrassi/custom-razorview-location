@@ -3,7 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27428.2043
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyApp.ViewModels", "src\MyApp.ViewModels\MyApp.ViewModels.csproj", "{BB3C3973-B08F-4E62-8CF1-5DF79FE4F940}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyApp.Web", "src\MyApp.Web\MyApp.Web.csproj", "{80FAD170-635B-43E7-A33E-D81CBB593CEE}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BB3C3973-B08F-4E62-8CF1-5DF79FE4F940}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB3C3973-B08F-4E62-8CF1-5DF79FE4F940}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB3C3973-B08F-4E62-8CF1-5DF79FE4F940}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB3C3973-B08F-4E62-8CF1-5DF79FE4F940}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80FAD170-635B-43E7-A33E-D81CBB593CEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80FAD170-635B-43E7-A33E-D81CBB593CEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80FAD170-635B-43E7-A33E-D81CBB593CEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80FAD170-635B-43E7-A33E-D81CBB593CEE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
