@@ -16,4 +16,9 @@
     <ProjectReference Include="..\MyApp.ViewModels\MyApp.ViewModels.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Features\Customer\Controllers\" />
+    <Folder Include="Features\Customer\Views\" />
+  </ItemGroup>
+
 </Project>
